@@ -1,29 +1,17 @@
-# README #
+# Discovering the Rationale of Decisions #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This repository contains a set of experiments aimed at evaluating the rationales of machine learning systems in different legal settings.
 
-### What is this repository for? ###
+### Abstract ###
+In AI and law, systems that are designed for decision support should be explainable when pursuing justice. In order for these systems to be fair and responsible, they should make correct decisions and make them using a sound and transparent rationale. In this paper, we introduce a knowledge-driven method for model-agnostic rationale evaluation using dedicated test cases, similar to unit-testing in professional software development. We apply this new quantitative human-in-the-loop method in a set of machine learning experiments aimed at extracting known knowledge structures from artificial datasets from a real-life legal setting. We show that our method allows us to analyze the rationale of black box machine learning systems by assessing which rationale elements are learned or not. Furthermore, we show that the rationale can be adjusted using tailor-made training data based on the results of the rationale evaluation. 
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Experiments ###
 
-### How do I get set up? ###
+All three experiments can be found in the following Jupyter notebooks:
+* wb_replication.ipynb:  Welfare benefit experiment (Bench-Capon replication)
+* wb_simplified.ipynb:   Simplified welfare benefit experiment
+* tort_law.ipynb:        Experiment on tort law
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Papers ###
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Discovering the Rationale of Decisions: Towards a Method for Aligning Learning and Reasoning (ICAIL 2021: coming soon) 
