@@ -14,4 +14,5 @@ All three experiments can be found in the following Jupyter notebooks:
 
 ### Papers ###
 
-* Discovering the Rationale of Decisions: Towards a Method for Aligning Learning and Reasoning (ICAIL 2021: coming soon) 
+* [Discovering the Rationale of Decisions: Towards a Method for Aligning Learning and Reasoning (ICAIL 2021)](https://www.semanticscholar.org/paper/Discovering-the-Rationale-of-Decisions%3A-Towards-a-Steging-Renooij/73406bf87b403f36935bf375486e3bbbdc69aff2)
+* [Discovering the Rationale of Decisions: Experiments on Aligning Learning and Reasoning (XAILA 2021)](https://arxiv.org/abs/2105.06758) 
