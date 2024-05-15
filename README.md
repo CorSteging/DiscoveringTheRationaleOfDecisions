@@ -12,6 +12,11 @@ All three experiments can be found in the following Jupyter notebooks:
 * wb_simplified.ipynb:   Simplified welfare benefit experiment
 * tort_law.ipynb:        Experiment on tort law
 
+### Results ###
+* accuracies: The accuracies of our models across the three domains
+* plots: The plots for the Age-Gender and the Patient-Distance conditions
+* comparing_lime_shap: Contains a comparison between LIME and SHAP explanations. For each instance in 'test_dataset.csv' of the Welfare Benefit domain, we provide an explanation using SHAP and LIME, using the neural networks with 1, 2 or 3 hidden layers, trained on either the tailored or regular training dataset.
+
 ### Papers ###
 
 * [Discovering the Rationale of Decisions: Towards a Method for Aligning Learning and Reasoning (ICAIL 2021)](https://www.semanticscholar.org/paper/Discovering-the-Rationale-of-Decisions%3A-Towards-a-Steging-Renooij/73406bf87b403f36935bf375486e3bbbdc69aff2)
